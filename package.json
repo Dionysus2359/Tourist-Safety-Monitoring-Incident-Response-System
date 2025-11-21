@@ -1,0 +1,37 @@
+{
+  "name": "tourist-safety-monitoring-system",
+  "version": "1.0.0",
+  "description": "Full-stack Tourist Safety and Monitoring System with combined backend and frontend",
+  "scripts": {
+    "setup": "echo 'Setting up environment... Check README-Environment-Setup.md for instructions'",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "npm run build:frontend && npm run build:backend",
+    "build:backend": "cd backend && npm run production",
+    "build:frontend": "cd frontend && npm run build",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run preview",
+    "production": "concurrently \"npm run production:backend\" \"npm run production:frontend\"",
+    "production:backend": "cd backend && npm run production",
+    "production:frontend": "cd frontend && npm run preview",
+    "lint": "cd frontend && npm run lint",
+    "clean": "rm -rf backend/node_modules frontend/node_modules node_modules"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  },
+  "keywords": [
+    "tourist-safety",
+    "monitoring-system",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC"
+}

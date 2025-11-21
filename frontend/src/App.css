@@ -1,0 +1,76 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Map container styles */
+/* .map-container {
+  position: relative;
+}
+
+/* Custom marker styles */
+/* .custom-div-icon {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Leaflet popup customizations */
+/* .leaflet-popup-content {
+  margin: 8px 12px !important;
+  line-height: 1.4 !important;
+} */
+
+/* .leaflet-popup-content h4 {
+  margin: 0 0 8px 0 !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+} */
+
+/* .leaflet-popup-content p {
+  margin: 4px 0 !important;
+  font-size: 12px !important;
+} */
+
+/* .leaflet-popup-content button {
+  margin-top: 8px !important;
+  font-size: 11px !important;
+  padding: 4px 8px !important;
+} */ 
+
+/* Animations */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.1); opacity: 0.8; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .map-demo-container {
+    flex-direction: column !important;
+  }
+  
+  .map-demo-container > div:last-child {
+    width: 100% !important;
+    height: 200px !important;
+    overflow-y: auto !important;
+  }
+}
