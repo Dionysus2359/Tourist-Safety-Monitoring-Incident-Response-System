@@ -15,12 +15,12 @@ A comprehensive web application designed to enhance tourist safety through real-
 
 ### Technical Features
 - **Responsive Design**: Mobile-first design with modern UI/UX
-<!-- - **Real-time Updates**: WebSocket support for live notifications -->
-<!-- - **Offline Support**: Basic offline functionality for critical features -->
 - **Interactive Maps**: Powered by Leaflet and MapTiler for detailed terrain and street views
 - **Security**: Session-based authentication, encrypted data, secure API endpoints
 - **Performance**: Optimized API calls, caching, and lazy loading
 - **Validation**: Robust input validation using Joi schemas.
+<!-- - **Real-time Updates**: WebSocket support for live notifications -->
+<!-- - **Offline Support**: Basic offline functionality for critical features -->
 
 ## 🏗️ Architecture
 
