@@ -1,4 +1,4 @@
-# Tourist Safety and Monitoring System
+# Smart Tourist Safety & Incident Response System
 
 A comprehensive web application designed to enhance tourist safety through real-time monitoring, incident reporting, geofencing, and emergency response coordination.
 
@@ -7,7 +7,7 @@ A comprehensive web application designed to enhance tourist safety through real-
 ### Core Features
 - **User Authentication**: Secure registration and login system with role-based access
 - **Real-time Incident Reporting**: Report and track safety incidents with location data
-- **Geofencing**: Define safe zones and receive alerts when entering danger areas
+- **Geofencing Visualization**: Visual representation of safe zones and danger areas on interactive maps
 - **Emergency Contacts**: Manage emergency contact information
 - **Digital Tourist ID**: Generate and manage digital identification
 - **Trip Planning**: Plan and track travel itineraries
@@ -15,10 +15,12 @@ A comprehensive web application designed to enhance tourist safety through real-
 
 ### Technical Features
 - **Responsive Design**: Mobile-first design with modern UI/UX
-- **Real-time Updates**: WebSocket support for live notifications
-- **Offline Support**: Basic offline functionality for critical features
-- **Security**: JWT tokens, encrypted data, secure API endpoints
+<!-- - **Real-time Updates**: WebSocket support for live notifications -->
+<!-- - **Offline Support**: Basic offline functionality for critical features -->
+- **Interactive Maps**: Powered by Leaflet and MapTiler for detailed terrain and street views
+- **Security**: Session-based authentication, encrypted data, secure API endpoints
 - **Performance**: Optimized API calls, caching, and lazy loading
+- **Validation**: Robust input validation using Joi schemas.
 
 ## 🏗️ Architecture
 
@@ -36,7 +38,13 @@ A comprehensive web application designed to enhance tourist safety through real-
 - **State Management**: React Context API
 - **Routing**: React Router v7
 - **HTTP Client**: Axios with interceptors
-- **Maps**: Leaflet for location visualization
+- **Maps**: Leaflet.js with MapTiler Cloud API
+
+## 🔮 Future Roadmap (Coming Soon)
+- **Real-time Notifications**: Implementation of Socket.io for instant alerts.
+- **Mobile Application**: Native mobile support (PWA or React Native).
+- **JWT Authentication**: Migration to stateless JWT tokens for better scalability.
+- **Offline Mode**: Enhanced service worker support for full offline capabilities.
 
 ## 📁 Project Structure
 
@@ -215,9 +223,9 @@ npm test
 
 This project is licensed under the ISC License - see the LICENSE file for details.
 
-## 📞 Support
+<!-- ## 📞 Support
 
-For support, email support@safetravels.com or join our Discord community.
+For support, email support@safetravels.com or join our Discord community. -->
 
 ## 🙏 Acknowledgments
 
